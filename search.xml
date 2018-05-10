@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Make more time]]></title>
+    <url>%2F2018%2F05%2F10%2F2018-05-10-MakeMoreTime%2F</url>
+    <content type="text"><![CDATA[今天听到一首歌，触动心弦。 Time Money is not evil by itself Its just paper with perceived value to obtain other things we value in other ways If not money - what is evil you may ask? Evil is the unquenchable Obsessive and moral bending desire for more Evil is the bottomless Soulless and obsessive-compulsive pursuit of some pot of gold At the end of some rainbow which doesn’t exist Evil is having a price tag for your heart and soul in exchange for financial success at any cost Evil is trying to buy happiness Again and again Util all of those fake Short lived mirages of emotions are gone Make more time I’m not saying you can’t be financially successful Your soul is screaming for you to answer your true calling You can change today if you redefine what success is to you You can transform your damaged relationships and build new ones You can forgive yourself and others who’ve hurt you You can become a leader by mentoring with others who you aspire to be like You can re-balance your priorities in life You can become the best parent possible at any age - even 86 But don’t wait until then… You will always be able to make more money But you cannot make more time 翻译成中文就是： Time 钱本不邪恶 钱只是商品流通的交换介质，只是一张纸 那你会问，什么是邪恶？ 邪恶是上瘾的到的扭曲的欲望 是强迫自己无休止地觊觎 那些并不存在的梦幻 邪恶是你不惜一切代价获取经济利益的价格标签 是贪得无厌，索取幸福 直到那些虚幻的蜃景消逝 让时间更有意义 我并不是说你不能在经济上取得成功 我是说有一个伟大的生活目标会超越经济方面的成功 你的灵魂在尖叫着等你最真切的回应 如果你重新定义成功，你可以改变自己的现状 你可能改善并重新建立你的人际关系 你可能原谅自己和伤害过你的人 在你仰慕的人的指导下你也可能成为一个领导者 你可以重新调整生活的重心 你可以治愈你的婚姻并重建真爱 你在任何年纪都可能成为最好的父母，甚至在86岁 但千万别等到那时 你将来可能会赚很多钱 却得不到更多时间]]></content>
+      <categories>
+        <category>我的人生</category>
+      </categories>
+      <tags>
+        <tag>人生观</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2018%2F04%2F21%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Next Theme这是我将之前jekyll上的博客转移到这里的第一篇自动生成的博客。使用Hexo在本地搭建博客，Next是一个很棒的简洁的主题。Next的下载地址为Next。Next官方使用文档Next Document。 Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
