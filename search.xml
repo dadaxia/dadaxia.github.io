@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[白银T+D实时曲线图]]></title>
+    <url>%2F2018%2F05%2F21%2F2018-05-21-%E7%99%BD%E9%93%B6T%2BD%E5%AE%9E%E6%97%B6%E6%9B%B2%E7%BA%BF%E5%9B%BE%2F</url>
+    <content type="text"><![CDATA[因为我最近一年偶尔在做白银T+D期货，作为一个程序员，于是我自己写了一个实时显示白银T+D价格的工程，同时监控的还有美元指数（USD）、现货黄金、现货白银、纸黄金、纸白银、黄金T+D。本来想根据白银与美元指数、黄金与美元指数之间的相关系数，但是由于考虑到相关系数需要一组数据来计算，需要详细设计，真实的展现黄金白银与美元指数之间的关系，所以暂时还没有做。开发这个工程使用技术有springmvc、mybatis，前端使用的EChart，一个国产的可视化组件。目前做的还是比较粗糙的，后面需要优化和完善。github地址：https://github.com/dadaxia/AuAg]]></content>
+      <categories>
+        <category>project</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Make more time]]></title>
     <url>%2F2018%2F05%2F10%2F2018-05-10-MakeMoreTime%2F</url>
     <content type="text"><![CDATA[今天听到着首歌，触动心弦。 Time Money is not evil by itself Its just paper with perceived value to obtain other things we value in other ways If not money - what is evil you may ask? Evil is the unquenchable Obsessive and moral bending desire for more Evil is the bottomless Soulless and obsessive-compulsive pursuit of some pot of gold At the end of some rainbow which doesn’t exist Evil is having a price tag for your heart and soul in exchange for financial success at any cost Evil is trying to buy happiness Again and again Util all of those fake Short lived mirages of emotions are gone Make more time I’m not saying you can’t be financially successful Your soul is screaming for you to answer your true calling You can change today if you redefine what success is to you You can transform your damaged relationships and build new ones You can forgive yourself and others who’ve hurt you You can become a leader by mentoring with others who you aspire to be like You can re-balance your priorities in life You can become the best parent possible at any age - even 86 But don’t wait until then… You will always be able to make more money But you cannot make more time 翻译成中文就是： Time 钱本不邪恶 钱只是商品流通的交换介质，只是一张纸 那你会问，什么是邪恶？ 邪恶是上瘾的到的扭曲的欲望 是强迫自己无休止地觊觎 那些并不存在的梦幻 邪恶是你不惜一切代价获取经济利益的价格标签 是贪得无厌，索取幸福 直到那些虚幻的蜃景消逝 让时间更有意义 我并不是说你不能在经济上取得成功 我是说有一个伟大的生活目标会超越经济方面的成功 你的灵魂在尖叫着等你最真切的回应 如果你重新定义成功，你可以改变自己的现状 你可能改善并重新建立你的人际关系 你可能原谅自己和伤害过你的人 在你仰慕的人的指导下你也可能成为一个领导者 你可以重新调整生活的重心 你可以治愈你的婚姻并重建真爱 你在任何年纪都可能成为最好的父母，甚至在86岁 但千万别等到那时 你将来可能会赚很多钱 却得不到更多时间]]></content>

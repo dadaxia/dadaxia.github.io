@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-05-11T02:51:42.097Z</updated>
+  <updated>2018-05-21T14:22:07.756Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>白银T+D实时曲线图</title>
+    <link href="http://yoursite.com/2018/05/21/2018-05-21-%E7%99%BD%E9%93%B6T+D%E5%AE%9E%E6%97%B6%E6%9B%B2%E7%BA%BF%E5%9B%BE/"/>
+    <id>http://yoursite.com/2018/05/21/2018-05-21-白银T+D实时曲线图/</id>
+    <published>2018-05-21T14:22:07.610Z</published>
+    <updated>2018-05-21T14:22:07.756Z</updated>
+    
+    <content type="html"><![CDATA[<p>因为我最近一年偶尔在做白银T+D期货，作为一个程序员，于是我自己写了一个实时显示白银T+D价格的工程，同时监控的还有美元指数（USD）、现货黄金、现货白银、纸黄金、纸白银、黄金T+D。本来想根据白银与美元指数、黄金与美元指数之间的相关系数，但是由于考虑到相关系数需要一组数据来计算，需要详细设计，真实的展现黄金白银与美元指数之间的关系，所以暂时还没有做。<br>开发这个工程使用技术有springmvc、mybatis，前端使用的EChart，一个国产的可视化组件。目前做的还是比较粗糙的，后面需要优化和完善。<br>github地址：<a href="https://github.com/dadaxia/AuAg" title="github地址" target="_blank" rel="noopener">https://github.com/dadaxia/AuAg</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;因为我最近一年偶尔在做白银T+D期货，作为一个程序员，于是我自己写了一个实时显示白银T+D价格的工程，同时监控的还有美元指数（USD）、现货黄金、现货白银、纸黄金、纸白银、黄金T+D。本来想根据白银与美元指数、黄金与美元指数之间的相关系数，但是由于考虑到相关系数需要一组数据
+      
+    
+    </summary>
+    
+      <category term="project" scheme="http://yoursite.com/categories/project/"/>
+    
+    
+      <category term="java" scheme="http://yoursite.com/tags/java/"/>
+    
+  </entry>
   
   <entry>
     <title>Make more time</title>
@@ -490,32 +515,6 @@
       
         &lt;p&gt;在java中，可以通过两种方式来体现OOP的抽象：接口和抽象类。这两者有太多相似的地方，又有太多不同的地方。&lt;/p&gt;
 &lt;h3 id=&quot;抽象类&quot;&gt;&lt;a href=&quot;#抽象类&quot; class=&quot;headerlink&quot; title=&quot;抽象类&quot;&gt;&lt;/a&gt;抽象类&lt;/h3&gt;&lt;p&gt;在了解抽
-      
-    
-    </summary>
-    
-      <category term="java" scheme="http://yoursite.com/categories/java/"/>
-    
-    
-      <category term="java" scheme="http://yoursite.com/tags/java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>java多态</title>
-    <link href="http://yoursite.com/2018/03/18/2018-03-19-java%E5%A4%9A%E6%80%81/"/>
-    <id>http://yoursite.com/2018/03/18/2018-03-19-java多态/</id>
-    <published>2018-03-18T12:03:00.000Z</published>
-    <updated>2018-04-22T10:01:49.271Z</updated>
-    
-    <content type="html"><![CDATA[<p>面向对象的三大特征：封装、继承、多态。从一定角度来看，封装和继承几乎都是为多态而准备的。</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>多态：指允不同类的对象对同一消息做出相应。即同一消息可以根据发送对象的不同而采用多种不同的方式。（发送消息就是函数调用）</p><h3 id="实现多态的技术"><a href="#实现多态的技术" class="headerlink" title="实现多态的技术"></a>实现多态的技术</h3><p>实现多态的技术：动态绑定，是指在执行期间判断所引用对象的实际类型，根据实际的类型调用其相应的方法。</p><h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3><p>消除类型之间的耦合关系。</p><h3 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h3><p>现实中，关于多态的例子不胜枚举。比如按下F1键这个动作，如果当前在Flash界面下弹出的就是AS3帮助文档；如果当前在word下弹出的就是Word帮助；在Windows下弹出的就是windows帮助和支持。同一个事件发生在不同的对象上会产生不同的结果。</p><h3 id="多态存在的三个必要条件"><a href="#多态存在的三个必要条件" class="headerlink" title="多态存在的三个必要条件"></a>多态存在的三个必要条件</h3><p>要求大家做梦的时候都要背出来，多态存在的三个条件：</p><ul><li>要有继承</li><li>要有重写</li><li>父类引用指向子类对象</li></ul><h3 id="多态的好处"><a href="#多态的好处" class="headerlink" title="多态的好处"></a>多态的好处</h3><ol><li>可替换性(substitutability)：多态对已存在代码具有可替换性。例如，多态对圆Circle类工作，对其它任何圆形几何体，如圆环，也同样工作。</li><li>可扩充性(extensibility)：多态对代码具有可扩充性。增加新的子类不影响已存在类的多态性、继承性，以及其它特性的运行和操作。实际上增加子类更容易获得多态功能。例如，在实现了圆锥、半圆锥以及半球体的多台基础上，很容易增加球体的多态性。</li><li>接口性(interface-ability)：多态是超类通过方法签名，向子类提供了一个共同接口，由子类来完善或者覆盖它而实现。</li><li>灵活性(flexibility)：它在应用中体现了灵活多样的操作，提高了使用效率。</li><li>简化性(simpllicity)：多态简化对应用软件的代码编写和修改过程，尤其在处理大量对象的运算和操作时，这个特点尤为突出和重要。</li></ol><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>面向对象编程有三大特性：封装、继承、多态。  </p><p>封装隐藏了类的内部实现机制，可以在不影响使用的情况下改变类的内部结构，同时也保护了数据。对外界而已它的内部细节是隐藏的，暴露给外界的只是它的访问方法。  </p><p>继承是为了重用父类代码。两个类若存在IS-A的关系就可以使用继承。，同时继承也为实现多态做了铺垫。那么什么是多态呢？多态的实现机制又是什么？请看我一一为你揭开：  </p><p>所谓多态就是指程序中定义的引用变量所指向的具体类型和通过该引用变量发出的方法调用在编程时并不确定，而是在程序运行期间才确定，即一个引用变量倒底会指向哪个类的实例对象，该引用变量发出的方法调用到底是哪个类中实现的方法，必须在由程序运行期间才能决定。因为在程序运行时才确定具体的类，这样，不用修改源程序代码，就可以让引用变量绑定到各种不同的类实现上，从而导致该引用调用的具体方法随之改变，即不修改程序代码就可以改变程序运行时所绑定的具体代码，让程序可以选择多个运行状态，这就是多态性。  </p><p>比如你是一个酒神，对酒情有独钟。某日回家发现桌上有几个杯子里面都装了白酒，从外面看我们是不可能知道这是些什么酒，只有喝了之后才能够猜出来是何种酒。你一喝，这是剑南春、再喝这是五粮液、再喝这是酒鬼酒….在这里我们可以描述成如下：  </p><p>酒 a = 剑南春  </p><p>酒 b = 五粮液  </p><p>酒 c = 酒鬼酒  </p><p>…</p><p>这里所表现的的就是多态。剑南春、五粮液、酒鬼酒都是酒的子类，我们只是通过酒这一个父类就能够引用不同的子类，这就是多态——我们只有在运行的时候才会知道引用变量所指向的具体实例对象。  </p><p>诚然，要理解多态我们就必须要明白什么是“向上转型”。在继承中我们简单介绍了向上转型，这里就在啰嗦下：在上面的喝酒例子中，酒（Win）是父类，剑南春（JNC）、五粮液（WLY）、酒鬼酒（JGJ）是子类。我们定义如下代码：  </p><p>JNC a = new  JNC();  </p><p>对于这个代码我们非常容易理解无非就是实例化了一个剑南春的对象嘛！但是这样呢？  </p><p>Wine a = new JNC();  </p><p>在这里我们这样理解，这里定义了一个Wine 类型的a，它指向JNC对象实例。由于JNC是继承与Wine，所以JNC可以自动向上转型为Wine，所以a是可以指向JNC实例对象的。这样做存在一个非常大的好处，在继承中我们知道子类是父类的扩展，它可以提供比父类更加强大的功能，如果我们定义了一个指向子类的父类引用类型，那么它除了能够引用父类的共性外，还可以使用子类强大的功能。  </p><p><strong>静态方法不具有多态性；构造器实际上是static方法，只不过该static声明是隐式的。</strong></p><p>参考：<a href="http://www.importnew.com/20079.html" target="_blank" rel="noopener">http://www.importnew.com/20079.html</a>和<a href="https://www.cnblogs.com/mz-lover/p/4786337.html" target="_blank" rel="noopener">https://www.cnblogs.com/mz-lover/p/4786337.html</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;面向对象的三大特征：封装、继承、多态。从一定角度来看，封装和继承几乎都是为多态而准备的。&lt;/p&gt;
-&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义&quot;&gt;&lt;/a&gt;定义&lt;/h3&gt;&lt;p&gt;多态：指允不同类的对象对同一消息做出
       
     
     </summary>
